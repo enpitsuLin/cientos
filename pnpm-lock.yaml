@@ -1,9 +1,5 @@
 lockfileVersion: '6.0'
 
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
-
 importers:
 
   .:
@@ -37,8 +33,8 @@ importers:
         specifier: ^0.2.1
         version: 0.2.1(@typescript-eslint/eslint-plugin@6.8.0)(eslint@8.51.0)(typescript@5.2.2)
       '@tweakpane/core':
-        specifier: ^1.1.9
-        version: 1.1.9
+        specifier: ^2.0.0
+        version: 2.0.0
       '@types/node':
         specifier: ^20.8.7
         version: 20.8.7
@@ -1120,8 +1116,8 @@ packages:
     engines: {node: '>=10.13.0'}
     dev: true
 
-  /@tweakpane/core@1.1.9:
-    resolution: {integrity: sha512-9tq+KAhaqPiOgsFyLPAz1IMXkVfhRqxGzAgy1ps3As6o3W7XjnU7sev6OlD/Z+Pzw8uZVMukkSHf2e0uCU6u0A==}
+  /@tweakpane/core@2.0.0:
+    resolution: {integrity: sha512-reIUN8bj+YuB/PyhcqPAMuV3/t2P6iHPlR73++xwx+vW2RZ2LRYhXvcs+3VgbubTjyLOiek6a4T5rsbHwOPKqw==}
     dev: true
 
   /@tweakpane/plugin-essentials@0.2.0(tweakpane@4.0.1):
@@ -6774,3 +6770,7 @@ packages:
     optionalDependencies:
       commander: 9.5.0
     dev: true
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
